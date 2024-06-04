@@ -134,6 +134,14 @@ nav li:first-child{
           order: 2;
           margin-top: 0;
       }
+      .container3{
+        flex-direction: column;
+      }
+      .page-3{
+        width: 100vw;
+        height: 100vh;
+        background-color: #ffffff;
+      }
     
 }
 .demo-btn a{
