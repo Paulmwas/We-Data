@@ -157,7 +157,7 @@ nav li:first-child{
        
       }
       .right>img{
- 
+        max-width: 549px;
       }
       .sales>h4{
         font-size: 30px;
