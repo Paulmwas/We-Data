@@ -88,7 +88,6 @@ nav li:first-child{
         flex-direction: column;        
     } 
     .h-image{
-        width: 50%;
         display: none;
     }
   
@@ -134,29 +133,31 @@ nav li:first-child{
           order: 2;
           margin-top: 0;
       }
+      .page-3{
+        width: -fit-content;
+        max-width: 440px;
+        
+      }
       .container3{
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
         padding-top: 5%;
-        padding-left: 40px;
+        padding-left: 240px;
         padding-right: 40px;
         gap: 40px;
         text-align: left;
         flex-direction: column;
       } 
       .sales{
-        flex-direction: column;
+       
       }
       .right{
-        /* width: 550px; */
-        padding-bottom: 30px;
+       
       }
       .right>img{
-        padding: 20px 20px;
-        margin-left: 20px;
-        margin-right: 20px;
+ 
       }
       .sales>h4{
         font-size: 30px;
@@ -285,7 +286,7 @@ nav li:first-child{
     width: 100%;
     height: 100%;
     background-color: #ffffff;
-    margin-bottom: 80px;
+    margin-bottom: 20px;
   }
  .container3{
     display: flex;
