@@ -135,10 +135,11 @@ nav li:first-child{
       }
       .page-3{
         width: -fit-content;
-        max-width: 440px;
+        max-width: 100%;
         
       }
       .container3{
+        background-color: aqua;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -157,7 +158,7 @@ nav li:first-child{
        
       }
       .right>img{
-        max-width: 549px;
+        max-width: 439px;
       }
       .sales>h4{
         font-size: 30px;
