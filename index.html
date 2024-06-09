@@ -70,9 +70,24 @@
             <div class="right">
                 <img src="./image3.jpg" width="20px">
             </div>
+        </div>  
+          <div class="logos">
+        <div class="logos-slide">
+          <img src="./3m.svg" />
+          <img src="./barstool-store.svg" />
+          <img src="./budweiser.svg" />
+          <img src="./buzzfeed.svg" />
+          <img src="./forbes.svg" />
+          <img src="./macys.svg" />
+          <img src="./menshealth.svg" />
+          <img src="./mrbeast.svg" />
         </div>
+      </div>
     </section>
+
     <script>
+        var copy = document.querySelector(".logos-slide").cloneNode(true);
+        document.querySelector(".logos").appendChild(copy);
         function showSidebar(){
             const sideMenu = document.querySelector(".sideBar");
             sideMenu.style.display= 'flex'
